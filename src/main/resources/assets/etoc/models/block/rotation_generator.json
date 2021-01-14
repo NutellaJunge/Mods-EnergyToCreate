@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "etoc:block/rotation_generator/side"
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"itemGroup.etoc_group": "Energy to Create",
+	
+	"item.etoc.redstone_alloy": "Redstone Legierung",
+	
+	"item.etoc.aluminum_sheet": "Aluminium Plate",
+	"item.etoc.aluminum_ingot": "Aluminium Barren",
+	
+	"item.etoc.capacitor": "Kondensator",
+	
+	"block.etoc.rotation_generator": "Generator"
+}

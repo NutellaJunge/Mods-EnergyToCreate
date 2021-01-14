@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ESI",
+    "RGR",
+    "CCC"
+  ],
+  "key": {
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+      "item": "create:speedometer"
+    },
+    "I": {
+      "item": "create:integrated_circuit"
+    },
+    "R": {
+      "item": "etoc:redstone_alloy"
+    },
+    "G": {
+      "item": "create:adjustable_chain_gearshift"
+    },
+    "C": {
+      "item": "etoc:capacitor"
+    }
+  },
+  "result": {
+    "item": "etoc:rotation_generator"
+  }
+}

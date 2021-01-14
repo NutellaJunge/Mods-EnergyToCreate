@@ -1,0 +1,12 @@
+{
+	"itemGroup.etoc_group": "Energy to Create",
+	
+	"item.etoc.redstone_alloy": "Redstone Alloy",
+	
+	"item.etoc.aluminum_sheet": "Aluminum Sheet",
+	"item.etoc.aluminum_ingot": "Aluminum Ingot",
+	
+	"item.etoc.capacitor": "Capacitor",
+	
+	"block.etoc.rotation_generator": "Generator"
+}

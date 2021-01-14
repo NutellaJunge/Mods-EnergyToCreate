@@ -1,0 +1,27 @@
+{
+    "variants": {
+        "facing=east": {
+        	"model": "etoc:block/bauxit_ore/wall"
+        },
+        "facing=south": {
+        	"model": "etoc:block/bauxit_ore/wall",
+        	"y": 90
+        },
+        "facing=west": {
+        	"model": "etoc:block/bauxit_ore/wall",
+        	"y": 180
+        },
+        "facing=north": {
+        	"model": "etoc:block/bauxit_ore/wall",
+        	"y": 270
+        },
+        "facing=up": {
+        	"model": "etoc:block/bauxit_ore/up",
+        	"y": 270
+        },
+        "facing=down": {
+        	"model": "etoc:block/bauxit_ore/down",
+        	"y": 270
+        }
+    }
+}

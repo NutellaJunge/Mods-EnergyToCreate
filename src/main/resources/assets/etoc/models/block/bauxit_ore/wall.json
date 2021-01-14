@@ -1,0 +1,151 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"bauxit_ore": "etoc:block/bauxit_ore",
+		"particle": "etoc:block/bauxit_ore"
+	},
+	"elements": [
+		{
+			"name": "Cube",
+			"from": [0, 4, 2.5],
+			"to": [2, 14, 12.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [3.3125, 7.9375, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 2], "rotation": 270, "texture": "#bauxit_ore"},
+				"east": {"uv": [0, 0, 6, 6], "texture": "#bauxit_ore"},
+				"south": {"uv": [0, 0, 6, 2], "rotation": 90, "texture": "#bauxit_ore"},
+				"west": {"uv": [0, 0, 6, 6], "rotation": 180, "texture": "#bauxit_ore"},
+				"up": {"uv": [0, 0, 6, 2], "rotation": 90, "texture": "#bauxit_ore"},
+				"down": {"uv": [0, 0, 6, 2], "rotation": 90, "texture": "#bauxit_ore"}
+			}
+		},
+		{
+			"name": "Cube",
+			"from": [2, 7.25, 2.5],
+			"to": [3, 15.25, 11.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [3.3125, 7.9375, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 1], "rotation": 270, "texture": "#bauxit_ore"},
+				"east": {"uv": [0, 0, 5, 4], "texture": "#bauxit_ore"},
+				"south": {"uv": [0, 0, 4, 1], "rotation": 90, "texture": "#bauxit_ore"},
+				"west": {"uv": [0, 0, 5, 16], "rotation": 180, "texture": "#bauxit_ore"},
+				"up": {"uv": [0, 0, 5, 1], "rotation": 90, "texture": "#bauxit_ore"}
+			}
+		},
+		{
+			"name": "Cube",
+			"from": [2, 3.25, 6.5],
+			"to": [3, 11.25, 13.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [3.3125, 7.9375, 8.25]},
+			"faces": {
+				"east": {"uv": [0, 0, 3, 3], "texture": "#bauxit_ore"},
+				"south": {"uv": [0, 0, 3, 1], "rotation": 90, "texture": "#bauxit_ore"},
+				"west": {"uv": [0, 0, 3, 16], "rotation": 180, "texture": "#bauxit_ore"},
+				"up": {"uv": [0, 0, 3, 1], "rotation": 90, "texture": "#bauxit_ore"},
+				"down": {"uv": [0, 0, 3, 1], "rotation": 90, "texture": "#bauxit_ore"}
+			}
+		},
+		{
+			"name": "Cube",
+			"from": [2, 1.25, 1.5],
+			"to": [4, 9.25, 10.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [3.3125, 7.9375, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 2], "rotation": 270, "texture": "#bauxit_ore"},
+				"east": {"uv": [0, 0, 5, 4], "texture": "#bauxit_ore"},
+				"south": {"uv": [0, 0, 4, 2], "rotation": 90, "texture": "#bauxit_ore"},
+				"west": {"uv": [0, 0, 5, 16], "rotation": 180, "texture": "#bauxit_ore"},
+				"up": {"uv": [0, 0, 5, 2], "rotation": 90, "texture": "#bauxit_ore"},
+				"down": {"uv": [0, 0, 5, 2], "rotation": 90, "texture": "#bauxit_ore"}
+			}
+		},
+		{
+			"name": "Cube",
+			"from": [2, 4.25, 3.5],
+			"to": [5, 12.25, 12.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [3.3125, 7.9375, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 3], "rotation": 270, "texture": "#bauxit_ore"},
+				"east": {"uv": [0, 0, 5, 4], "texture": "#bauxit_ore"},
+				"south": {"uv": [0, 0, 4, 3], "rotation": 90, "texture": "#bauxit_ore"},
+				"up": {"uv": [0, 0, 5, 3], "rotation": 90, "texture": "#bauxit_ore"},
+				"down": {"uv": [0, 0, 5, 3], "rotation": 90, "texture": "#bauxit_ore"}
+			}
+		},
+		{
+			"name": "Cube",
+			"from": [0, 2.25, 3.5],
+			"to": [1, 12.25, 14.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [3.3125, 7.9375, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 1], "rotation": 270, "texture": "#bauxit_ore"},
+				"east": {"uv": [0, 0, 7, 6], "texture": "#bauxit_ore"},
+				"south": {"uv": [0, 0, 6, 1], "rotation": 90, "texture": "#bauxit_ore"},
+				"west": {"uv": [0, 0, 7, 16], "rotation": 180, "texture": "#bauxit_ore"},
+				"up": {"uv": [0, 0, 7, 1], "rotation": 90, "texture": "#bauxit_ore"},
+				"down": {"uv": [0, 0, 7, 1], "rotation": 90, "texture": "#bauxit_ore"}
+			}
+		},
+		{
+			"name": "Cube",
+			"from": [5, 5.25, 5.5],
+			"to": [6, 13.25, 14.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [3.3125, 7.9375, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 1], "rotation": 270, "texture": "#bauxit_ore"},
+				"east": {"uv": [0, 0, 5, 4], "texture": "#bauxit_ore"},
+				"south": {"uv": [4, 3.5, 9, 4], "rotation": 90, "texture": "#bauxit_ore"},
+				"west": {"uv": [0, 0, 8, 16], "rotation": 180, "texture": "#bauxit_ore"},
+				"up": {"uv": [3.5, 0, 10.5, 1], "rotation": 90, "texture": "#bauxit_ore"},
+				"down": {"uv": [3, 7, 8, 8], "rotation": 90, "texture": "#bauxit_ore"}
+			}
+		},
+		{
+			"name": "Cube",
+			"from": [5, 2.25, 3.5],
+			"to": [7, 11.25, 13.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [3.3125, 7.9375, 8.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 5, 2], "rotation": 270, "texture": "#bauxit_ore"},
+				"east": {"uv": [0, 0, 6, 5], "texture": "#bauxit_ore"},
+				"south": {"uv": [0, 0, 5, 2], "rotation": 90, "texture": "#bauxit_ore"},
+				"west": {"uv": [0, 0, 6, 16], "rotation": 180, "texture": "#bauxit_ore"},
+				"up": {"uv": [0, 0, 6, 2], "rotation": 90, "texture": "#bauxit_ore"},
+				"down": {"uv": [0, 0, 6, 2], "rotation": 90, "texture": "#bauxit_ore"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 315, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 315, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"rotation": [0, 180, 0]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "bauxit_ore",
+			"origin": [9, 8, 9],
+			"children": [0, 1, 2, 3, 4, 5, 6, 7]
+		}
+	]
+}
