@@ -1,4 +1,4 @@
-package de.paul.EnergyToCreate.items;
+package de.paul.EnergyToCreate;
 
 import de.paul.EnergyToCreate.setup.ModItems;
 import net.minecraft.item.ItemGroup;
@@ -14,7 +14,7 @@ public class ModItemGroup extends ItemGroup {
 
 	@Override
 	public ItemStack createIcon() {
-		return new ItemStack(ModItems.REDSTONE_ALLOY.get());
+		return new ItemStack(ModItems.REDSTONE_ALLOY);
 	}
 
 	public static void register() {}

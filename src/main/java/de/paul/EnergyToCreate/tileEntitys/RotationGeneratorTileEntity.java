@@ -1,18 +1,24 @@
 package de.paul.EnergyToCreate.tileEntitys;
 
 import com.simibubi.create.content.contraptions.base.GeneratingKineticTileEntity;
-import de.paul.EnergyToCreate.EnergyToCreate;
 import de.paul.EnergyToCreate.setup.ModTileEntitys;
 
 public class RotationGeneratorTileEntity extends GeneratingKineticTileEntity {
 
+	public float speed = 20;
+	
 	public RotationGeneratorTileEntity() {
-		super(ModTileEntitys.ROTATION_GENERATOR.get());
+		super(ModTileEntitys.ROTATION_GENERATOR);
 	}
 
 	@Override
 	public void tick() {
-		EnergyToCreate.LOGGER.debug("Speed: "+getSpeed());
+		
+	}
+	
+	@Override
+	public float getSpeed() {
+		return speed;
 	}
 
 }

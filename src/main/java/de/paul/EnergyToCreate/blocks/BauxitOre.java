@@ -5,7 +5,9 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockRenderType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.material.Material;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.BlockItemUseContext;
+import net.minecraft.item.Item;
 import net.minecraft.state.StateContainer;
 import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.util.Direction;
@@ -18,6 +20,7 @@ public class BauxitOre extends Block {
 
 	public BauxitOre() {
 		super(AbstractBlock.Properties.create(Material.ROCK));
+		setRegistryName("bauxit_ore");
 		
 		setDefaultState(stateContainer.getBaseState().with(BlockStateProperties.FACING, Direction.UP));
 	}

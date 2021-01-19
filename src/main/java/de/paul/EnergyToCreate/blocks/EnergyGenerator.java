@@ -21,11 +21,11 @@ import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.IWorldReader;
 
-public class RotationGenerator extends KineticBlock {
+public class EnergyGenerator extends KineticBlock {
 
-	public RotationGenerator() {
+	public EnergyGenerator() {
 		super(AbstractBlock.Properties.create(Material.PISTON));
-		setRegistryName("energy_generator");
+		setRegistryName("rotation_generator");
 		
 		setDefaultState(stateContainer.getBaseState().with(BlockStateProperties.FACING, Direction.UP));
 	}
@@ -62,6 +62,6 @@ public class RotationGenerator extends KineticBlock {
 
 	@Override
 	public TileEntity createTileEntity(BlockState state, IBlockReader reader) {
-		return ModTileEntitys.ENERGY_GENERATOR.create();
+		return ModTileEntitys.ROTATION_GENERATOR.create();
 	}
 }

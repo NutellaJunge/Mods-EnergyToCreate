@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "etoc:block/rotation_generator"
+    }
+  }
+}

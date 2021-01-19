@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "etoc:block/rotation_generator"
+      "model": "etoc:block/energy_generator"
     }
   }
 }
